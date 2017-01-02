@@ -63,7 +63,7 @@ public class LoginActivity extends Activity {
 		atLogPass = sp.getString("autopass", NO_DATA);
 		name = sp.getString("name", NO_DATA);
 		
-		
+		//자동로그인
 		if (!atLogId.equals(NO_DATA) && !atLogPass.equals(NO_DATA)) {
 
 			Intent i = new Intent(LoginActivity.this, MainActivity.class);
